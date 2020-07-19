@@ -1,8 +1,0 @@
-{
-    "config": {
-        "vendor-dir": "../vendor"
-    },
-    "require": {
-        "richardtmiles/carbonphp": "^1.1"
-    }
-}
