@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="898a0e54-a440-422b-95b5-47c4e4223e5b" name="StatsCoach" url="https://stats.coach">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$/../Stats.Coach/vendor/richardtmiles/carbonphp" accessType="MOUNT" />
+      </webServer>
+      <webServer id="9b9ffc5f-0fec-4430-b238-37d538256650" name="google stats" url="http://35.196.103.151">
+        <fileTransfer host="35.196.103.151" port="22" privateKey="$USER_HOME$/.ssh/google_compute_engine" rootFolder="/var/www/stats.coach/vendor/richardtmiles/carbonphp" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="66b30a6d-bfa2-4e15-a3e9-653e356670c4" name="Google C6" url="http://35.196.103.151">
+        <fileTransfer host="35.196.103.151" port="22" privateKey="$USER_HOME$/.ssh/google_compute_engine" rootFolder="/var/www/carbonphp.com/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e2a69378-7318-4216-b3c7-840aa3c7e058" name="Google" url="http://35.196.103.151">
+        <fileTransfer host="35.196.103.151" port="22" privateKey="$USER_HOME$/.ssh/google_compute_engine" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

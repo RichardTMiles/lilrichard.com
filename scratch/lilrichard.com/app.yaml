@@ -1,0 +1,12 @@
+runtime: php7.1
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: index.php
+  upload: index.php
+
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
