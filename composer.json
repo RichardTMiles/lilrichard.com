@@ -3,6 +3,6 @@
         "vendor-dir": "../vendor"
     },
     "require": {
-        "richardtmiles/carbonphp": "^1.1"
+        "richardtmiles/carbonphp": "6.0.0"
     }
 }
