@@ -28,7 +28,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
 -->
 <html>
 <head>
-    <title>Richard Miles</title>
+    <title>Richard Tyler Miles</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--[if lte IE 8]>
@@ -158,7 +158,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
         <div id="me">
             <header>
                 <span class="avatar"><img src="/images/me.jpg" alt=""/></span>
-                <h1>Richard Miles</h1>
+                <h1>Richard Tyler Miles</h1>
                 <h2>Computer Scientist</h2>
                 <h4>Full Stack Developer</h4>
             </header>
@@ -168,7 +168,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
             <footer>
                 <ul class="icons">
                     <li><a href="https://github.com/RichardTMiles" class="fa-github">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/richardtmiles/" class="fa-linkedin">linkedin</a></li>
+                    <li><a href="https://www.linkedin.com/in/Richardtmiles/" class="fa-linkedin">linkedin</a></li>
                     <li><a href="http://www.carbonphp.com/" class="fa-terminal">Featured Projects</a></li>
                     <li><a href="https://www.instagram.com/rich4miles/" class="fa-instagram">Instagram</a></li>
                     <li><a href="mailto:Richard@Miles.Systems" target="_top" class="fa-envelope">Email</a></li>
